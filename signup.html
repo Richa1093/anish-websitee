@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" href="images/favicon.ico">
+  <title>Home | Panera Bread</title>
+  <link href="name/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="name/script.js"></script>
+
+
+
+
+<h1 id="sign">Create your Paneera Bread account</h1>
+  <form name="Sub" onsubmit="hi()" id="signup">
+    <fieldset>
+    
+    <input type="text" id="Fname" placeholder="First Name">
+    <input type="text" id="Lname" placeholder="Last Name"><br>
+    <input type="Email" id="Email" placeholder="Email"><br>
+    <input type="number" id="Age" placeholder="Age"><br>
+    <input type="number" id="Phone Number" placeholder="Phone No."><br>
+    <input type="password" id="Pass" placeholder="Password">
+    <input type="password" id="CPass" placeholder="Confirm"><br>
+    <input type="submit" id="submit" id="sub"></fieldset>
+    
+    
+  </form>
+
+
+  <script>
+    function hi(){
+  var a= document.forms['Sub']['Age'].value;
+  var b=document.forms['Sub']['Pass'].value;
+  var c=document.forms['Sub']['CPass'].value;
+  if(a<=13 || b!=c){
+    alert("You need to be 13+ to make an account, or your password's do not match.")
+  }
+}
+    
+</script>
+</body>
+</html>

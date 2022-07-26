@@ -1,0 +1,85 @@
+nav{
+  width: 1450;
+  text-align: center;
+  position: fixed;
+  background-color:grey;
+  left:0px;
+}
+a{
+  color:black;
+  margin-left:70px;
+  font-size:30px;
+  text-decoration: none;
+  font-family: sans-serif;
+  
+}
+a:hover{
+  color:lightgreen;
+}
+#a{
+  margin-top:150px;
+}
+#b{
+  
+  width:1450px;
+  text-align: center;
+  position: fixed;
+  background-color:brown;
+top:0px;
+  font-family: times Georgia, 'Times New Roman', Times, serif;
+
+}
+#logo{
+  position: relative;
+  right:100px
+}
+#d{
+  position:fixed;
+  left:0px;
+  top:0px;
+}
+
+#hg{
+  display: flex;
+  flex-wrap: wrap;
+  text-align:center
+
+}
+.c1{
+  margin-top:180px;
+}
+#hola{
+  display: flex;
+  flex-wrap:wrap;
+  text-align:center;
+}
+.c{
+  position: relative;
+  bottom:40px;margin-right:150px
+}
+.c2{
+  margin-top:100px;
+}
+.c3{
+  position: relative;
+  bottom: 40px;
+}
+#sign{
+  text-align: center;
+}
+#signup{
+  text-align:center;
+  background-color:brown;
+  color:blue;
+}
+input{
+  margin-top:30px;
+}
+fieldset{
+  height: 300px;
+}
+#sub{
+  height: 20px;
+  width: 30px;
+}
+
